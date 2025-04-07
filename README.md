@@ -19,37 +19,17 @@ Welcome to the DragonBoy Online J2ME Client, a modernized recreation of the clas
 
 ### Prerequisites
 
-- Java Runtime Environment 8+ (for desktop)
-- Android 5.0+ or iOS 12+ (for mobile)
+- Java Runtime Environment 8+
 - 512MB RAM minimum
 
 ### Installation
 
 #### Desktop
 ```bash
-git clone https://github.com/yourusername/dragonboy-j2me.git
-cd dragonboy-j2me
+git clone https://github.com/duykhongphai/DragonBoyOnline-J2ME.git
+cd DragonBoyOnline-J2ME
 ./gradlew build
 ```
-
-#### Android
-Download the latest APK from the [Releases](https://github.com/yourusername/dragonboy-j2me/releases) page.
-
-#### iOS
-Available on TestFlight. Contact the maintainers for access.
-
-## 🎮 Controls
-
-### Mobile
-- **Touch controls**: Intuitive tap and swipe interface
-- **Customizable layout**: Adjust button positions to your preference
-
-### Desktop
-- **Arrow keys**: Movement
-- **Z, X, C**: Action buttons
-- **Space**: Menu
-- **Tab**: Switch targets
-
 ## 🛠️ Development
 
 This project uses a custom J2ME emulation layer to run the original game code with modern enhancements.
@@ -73,16 +53,6 @@ The client follows a layered architecture:
 - Input handling system
 - Resource management
 
-## 🤝 Contributing
-
-Contributions are welcome! Please check the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -95,9 +65,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- Discord: [Join our server](https://discord.gg/dragonboy-j2me)
-- Email: dragonboy.j2me@example.com
-- Issues: [GitHub Issues](https://github.com/yourusername/dragonboy-j2me/issues)
+- Issues: [GitHub Issues](https://github.com/duykhongphai/DragonBoyOnline-J2ME/issues)
 
 ---
 
