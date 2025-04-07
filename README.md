@@ -5,10 +5,6 @@ Chào mừng đến với DragonBoy Online J2ME Client, một phiên bản hiệ
 
 ## ✨ Tính năng
 - **Tương thích giới hạn**: Chạy trò chơi trên một số thiết bị và nền tảng cụ thể hỗ trợ công nghệ J2ME
-- **Đồ họa nâng cao**: Cải thiện hiển thị sprite và hiệu ứng hình ảnh trong khi vẫn giữ phong cách pixel art quyến rũ
-- **Tối ưu hóa mạng**: Giảm độ trễ và cải thiện độ ổn định kết nối
-- **Giao diện hiện đại**: Thiết kế lại giao diện để dễ sử dụng hơn trong khi vẫn giữ cảm giác cổ điển
-- **Gameplay mở rộng**: Bổ sung nhiệm vụ, vật phẩm và tùy chọn tùy chỉnh nhân vật
 - **Lưu trạng thái**: Đồng bộ hóa đám mây cho tiến trình trò chơi
 
 ## 🚀 Bắt đầu
