@@ -39,7 +39,6 @@ Dự án này sử dụng một lớp giả lập J2ME tùy chỉnh để chạy
 ### Kiến trúc
 Client tuân theo kiến trúc phân lớp:
 - Lớp giả lập J2ME cốt lõi
-- Động cơ render
 - Module giao tiếp mạng
 - Hệ thống xử lý đầu vào
 - Quản lý tài nguyên
