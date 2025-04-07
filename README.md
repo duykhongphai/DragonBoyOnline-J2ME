@@ -1,72 +1,59 @@
 # DragonBoyOnline-J2ME
-
 ![DragonBoy Logo](https://images.spiderum.com/sp-images/f9aabbc0449311ec885eab61bad4d8bd.png)
+## 📱 Tổng quan
+Chào mừng đến với DragonBoy Online J2ME Client, một phiên bản hiện đại hóa của tựa game MMORPG di động cổ điển Việt Nam ban đầu được phát triển cho các thiết bị Java ME (J2ME). Dự án này nhằm bảo tồn sự hoài niệm của trò chơi gốc và tối ưu hóa cho các thiết bị hỗ trợ công nghệ J2ME, với một số cải tiến giới hạn dựa trên khả năng của nền tảng.
 
-## 📱 Overview
+## ✨ Tính năng
+- **Tương thích giới hạn**: Chạy trò chơi trên một số thiết bị và nền tảng cụ thể hỗ trợ công nghệ J2ME
+- **Đồ họa nâng cao**: Cải thiện hiển thị sprite và hiệu ứng hình ảnh trong khi vẫn giữ phong cách pixel art quyến rũ
+- **Tối ưu hóa mạng**: Giảm độ trễ và cải thiện độ ổn định kết nối
+- **Giao diện hiện đại**: Thiết kế lại giao diện để dễ sử dụng hơn trong khi vẫn giữ cảm giác cổ điển
+- **Gameplay mở rộng**: Bổ sung nhiệm vụ, vật phẩm và tùy chọn tùy chỉnh nhân vật
+- **Lưu trạng thái**: Đồng bộ hóa đám mây cho tiến trình trò chơi
 
-Welcome to the DragonBoy Online J2ME Client, a modernized recreation of the classic Vietnamese mobile MMORPG originally developed for Java ME (J2ME) devices. This project aims to preserve the nostalgia of the original game while providing enhanced features and compatibility with modern systems.
+## 🚀 Bắt đầu
+### Yêu cầu hệ thống
+- Thiết bị hỗ trợ J2ME (Java ME)
+- Java Runtime Environment cho thiết bị tương thích
+- Tối thiểu 64MB RAM (tùy theo thiết bị)
 
-## ✨ Features
-
-- **Cross-Platform Compatibility**: Run the game on various platforms including Android, iOS, Windows, macOS, and Linux
-- **Enhanced Graphics**: Improved sprite rendering and visual effects while maintaining the charming pixel art style
-- **Network Optimization**: Reduced latency and improved connection stability
-- **Modern UI**: Redesigned interface for better usability while preserving the classic feel
-- **Extended Gameplay**: Additional quests, items, and character customization options
-- **Save States**: Cloud synchronization for game progress
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Java Runtime Environment 8+
-- 512MB RAM minimum
-
-### Installation
-
-#### Desktop
+### Cài đặt
+#### Máy tính
 ```bash
 git clone https://github.com/duykhongphai/DragonBoyOnline-J2ME.git
 cd DragonBoyOnline-J2ME
 ./gradlew build
 ```
-## 🛠️ Development
 
-This project uses a custom J2ME emulation layer to run the original game code with modern enhancements.
+## 🛠️ Phát triển
+Dự án này sử dụng một lớp giả lập J2ME tùy chỉnh để chạy mã trò chơi gốc với các cải tiến hiện đại.
 
-### Building from Source
-
+### Xây dựng từ mã nguồn
 ```bash
-# Install dependencies
+# Cài đặt các gói phụ thuộc
 ./gradlew dependencies
-
-# Build for all platforms
+# Xây dựng cho tất cả các nền tảng
 ./gradlew buildAll
 ```
 
-### Architecture
+### Kiến trúc
+Client tuân theo kiến trúc phân lớp:
+- Lớp giả lập J2ME cốt lõi
+- Động cơ render
+- Module giao tiếp mạng
+- Hệ thống xử lý đầu vào
+- Quản lý tài nguyên
 
-The client follows a layered architecture:
-- Core J2ME emulation layer
-- Rendering engine
-- Network communication module
-- Input handling system
-- Resource management
+## 📝 Giấy phép
+Dự án này được cấp phép theo Giấy phép MIT - xem tệp [LICENSE](LICENSE) để biết chi tiết.
 
-## 📝 License
+## 🙏 Lời cảm ơn
+- Các nhà phát triển game DragonBoy gốc
+- Cộng đồng bảo tồn J2ME
+- Tất cả những người đóng góp đã giúp dự án này trở thành hiện thực
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgements
-
-- Original DragonBoy game developers
-- The J2ME preservation community
-- All contributors who have helped make this project possible
-
-## 📞 Contact
-
-- Issues: [GitHub Issues](https://github.com/duykhongphai/DragonBoyOnline-J2ME/issues)
+## 📞 Liên hệ
+- Vấn đề: [GitHub Issues](https://github.com/duykhongphai/DragonBoyOnline-J2ME/issues)
 
 ---
-
-⭐ **Star this repository if you find it useful!** ⭐
+⭐ **Hãy gắn sao cho repository này nếu bạn thấy nó hữu ích!** ⭐
