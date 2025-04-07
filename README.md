@@ -24,14 +24,6 @@ cd DragonBoyOnline-J2ME
 ## 🛠️ Phát triển
 Dự án này sử dụng một lớp giả lập J2ME tùy chỉnh để chạy mã trò chơi gốc với các cải tiến hiện đại.
 
-### Xây dựng từ mã nguồn
-```bash
-# Cài đặt các gói phụ thuộc
-./gradlew dependencies
-# Xây dựng cho tất cả các nền tảng
-./gradlew buildAll
-```
-
 ### Kiến trúc
 Client tuân theo kiến trúc phân lớp:
 - Lớp giả lập J2ME cốt lõi
